@@ -1,0 +1,173 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.form {
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 2em;
+    width: fit-content;
+    position: relative;
+    left: 63%;
+    margin: 6% 9%;
+    background-image: linear-gradient(lightgray, violet);
+    box-shadow: 20px 20px 50px grey;
+}
+
+#outertitle {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 80%;
+    padding: 0%;
+}
+
+#title {
+    height: 18vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    overflow: hidden;
+    border-radius: 20px;
+    opacity: 120%;
+}
+
+#heading {
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 6s infinite alternate;
+    border-right: 3px solid black;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    opacity: 90%;
+}
+
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+    50% {
+        width: 9ch;
+    }
+    100% {
+        width: 26ch;
+    }
+}
+
+#btn-color {
+    background-color: rgb(247, 58, 121);
+}
+
+.logo1 {
+    align-items: center;
+    align-content: center;
+    margin-right: 2em;
+    overflow: hidden;
+}
+
+#bgpic {
+    position: absolute;
+}
+
+
+/*side navbar*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: sandybrown;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+/*Text over image*/
+
+.text {
+    position: absolute;
+}
+
+.text1 {
+    font-family: 'Road Rage', cursive;
+    margin: 11% 10%;
+    size: 200px;
+}
+
+.pic1 {
+    margin: -14% 2%;
+    width: 25%;
+}
+
+.pic2 {
+    margin: -14% 5%;
+    width: 20%;
+}
+
+#text2 {
+    position: absolute;
+    margin: 10% 5%;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+/*Blink text*/
+
+#text2 {
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.text5 {
+    position: absolute;
+    margin: 7% 72%;
+}
