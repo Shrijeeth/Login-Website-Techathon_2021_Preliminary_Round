@@ -2,7 +2,7 @@
 An Interactive Login System made using Python, Flask, HTML, CSS, Javascript, Lottie.JS and Sqlite. This web app is secure, reliable and fast. It uses parameterized queries to prevent SQL Injections into the database. It is also immune to brute force attacks. When a user attempts wrong username or password continuously, the user will be redirected to another security page automatically on any one the random continuous attempts of 3 to 10 times. This feature ensures that bots cannot perform brute attacks in the website. Passwords are stored in the hashed format at the database making the web app even more secure.
 
 ## Technologies Used
-- Front End : HTML, CSS, Javascript, Lottie.JS, Bootstrap
+- Front End : HTML, CSS, Javascript, Lottie.JS, Bootstrap, Google Fonts
 - Back End : Flask Framework (Python), Sqlite (MySQL Database)
 
 ## Features of the Website
