@@ -171,3 +171,14 @@
     position: absolute;
     margin: 7% 72%;
 }
+
+.marquee {
+    position: absolute;
+    font-weight: bolder;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    font-stretch: ultra-expanded;
+    background-color: aquamarine;
+}
