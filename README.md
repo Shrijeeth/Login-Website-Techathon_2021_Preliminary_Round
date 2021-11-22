@@ -3,7 +3,7 @@ An Interactive Login System made using Python, Flask, HTML, CSS, Javascript, Lot
 
 ## Technologies Used
 - Front End : HTML, CSS, Javascript, Lottie.JS
-- Back End : Flask API (Python), Sqlite (MySQL Database)
+- Back End : Flask Framework (Python), Sqlite (MySQL Database)
 
 ## Features of the Website
 - Interactive User Interface (UI) 
