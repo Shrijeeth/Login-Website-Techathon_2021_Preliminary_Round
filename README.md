@@ -10,5 +10,5 @@ An Interactive Login System made using Python, Flask, HTML, CSS, Javascript, Lot
 - Separate Login for both User and Admin
 
 ## Screenshots
-  ### Home Page
-    ![1.jpg](https://github.com/Shrijeeth/Login-Website-Techathon_2021_Preliminary_Round-/blob/main/docs/1.jpg)
+  ### Home Page   
+   ![1](https://user-images.githubusercontent.com/58306412/142852652-439abdc1-318d-4ad4-af6a-3f9714d1b2e1.jpg)
