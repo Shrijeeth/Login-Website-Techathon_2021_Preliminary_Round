@@ -11,4 +11,4 @@ An Interactive Login System made using Python, Flask, HTML, CSS, Javascript, Lot
 
 ## Screenshots
   ### Home Page   
-   ![1](https://user-images.githubusercontent.com/58306412/142852652-439abdc1-318d-4ad4-af6a-3f9714d1b2e1.jpg)
+   ![1](../main/docs/1.jpg)
